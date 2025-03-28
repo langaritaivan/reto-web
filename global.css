@@ -26,7 +26,6 @@ body {
 .letra {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
 
@@ -34,11 +33,15 @@ a {
   text-decoration: none;
 }
 
-.info {
+.info-text-box {
   border: solid 1px;
   height: auto;
   width: 250px;
   margin: 20px;
   float: left;
   padding: 5px;
+}
+
+.bg-dark{
+  background-color: #00000081;
 }
