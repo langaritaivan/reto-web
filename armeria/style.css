@@ -4,4 +4,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  padding: 20px;
+}
+
+select {
+  width: 50%;
+  padding: 10px;
+  font-size: 12px;
+  margin-top: 30px;
+  background-color: #464646;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid;
 }
