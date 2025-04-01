@@ -16,3 +16,14 @@
     background-color: rgb(0, 0, 0);
     opacity: 0.7;
 }
+
+.subfusiles-new {
+    border: solid 1px;
+    height: auto;
+    width: 350px;
+    margin: 20px;
+    float: left;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+}

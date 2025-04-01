@@ -45,3 +45,12 @@ a {
 .bg-dark{
   background-color: #00000081;
 }
+
+.nombre {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
