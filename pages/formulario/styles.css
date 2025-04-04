@@ -35,7 +35,7 @@ textarea {
   min-height: 80px;
 }
 
-button {
+.enviar {
   position: absolute;
   bottom: 20px;
   left: 50%;
@@ -47,4 +47,33 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.borrar {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.checkbox-container span {
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 15px
+  
+}
+
+.checkbox-container input {
+width: auto;
 }

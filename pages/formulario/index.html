@@ -21,12 +21,12 @@
         <div>FORMULARIO</div>
         <h2>Formulario y Comentarios</h2>
             <div class="campo">
-                <label for="nombre">Nombre:</label>
+                <label class="nombreusuario" for="nombre">Nombre:</label>
                 <input type="text" name="nombre" required>
             </div>
         
             <div class="campo">
-                <label for="email">Correo electrónico:</label>
+                <label class="email" for="email">Correo electrónico:</label>
                 <input type="email" name="email" required>
             </div>
 
@@ -34,7 +34,17 @@
                 <label for="comentarios">Comentarios:</label>
                 <textarea name="comenarios"></textarea>
             </div>
-            <button type="submit">Enviar</button>
+            <div class="campo">
+                <label>Selecciona tu modo de juego favorito:</label>
+                <div class="checkbox-container">
+                    <span><input type="checkbox" value="multijugador">Multijugador</span>
+                    <span><input type="checkbox" value="zombies">Zombies</span>
+                    <span><input type="checkbox" value="battle_royale">Battle Royale</span>
+                    <span><input type="checkbox" value="campaña">Campaña</span>
+                </div>
+            </div>
+            <button class="enviar" type="submit">Enviar</button>
+            <button class="borrar" type="submit">Eliminar</button>
     </section>
 
     <footer>
