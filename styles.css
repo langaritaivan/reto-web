@@ -5,13 +5,15 @@
     background-size: cover;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: black;
+    background-position: center;
+
 }
 
-.nombre {
-    float: right;
-    border: solid 1px;
-    margin: 20px;
-    padding: 5px;
+.contedor {
+    background-color: orange;
+    padding: 10px;
 }

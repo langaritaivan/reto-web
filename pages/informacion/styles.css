@@ -1,29 +1,101 @@
+
 .informacion-fondo {
-  background-image: url('../../assets/img/informacion.webp');
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
+  min-height: 100vh;
+  background-image: url('../../assets/img/informacion.webp');
+  /* opcional si tienes imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+  color: #fff;
 }
 
-.fusiles-new {
-    border: solid 1px;
-    height: auto;
-    width: 350px;
-    margin: 20px;
-    float: left;
-    padding: 5px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
+.info-text-box {
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center;
 }
 
+.nombre {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.fusiles-new,
 .subfusiles-new {
-    border: solid 1px;
-    height: auto;
-    width: 350px;
-    margin: 20px;
-    float: left;
-    padding: 5px;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  max-width: 350px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.armas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tabla-armas {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  padding: 25px;
+  width: 100%;
+  max-width: 900px;
+  overflow-x: auto;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+.tabla-armas h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+}
+
+.tabla-armas table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #ddd;
+}
+
+.tabla-armas th,
+.tabla-armas td {
+  border: 1px solid #444;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tabla-armas th {
+  background-color: #2a2a2a;
+  font-weight: bold;
+}
+
+.tabla-armas ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: #111;
+  color: #aaa;
+  font-size: 0.9rem;
 }
