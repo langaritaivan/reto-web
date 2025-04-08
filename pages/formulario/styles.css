@@ -85,3 +85,10 @@ width: auto;
   flex-direction: row;
   gap: 15px
 }
+
+.confirmar {
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}

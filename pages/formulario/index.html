@@ -18,11 +18,17 @@
     </header>
 
     <section class="formulario-fondo">
+        <form action="confirm.html">
         <div>FORMULARIO</div>
         <h2>Formulario y Comentarios</h2>
             <div class="campo">
                 <label class="nombreusuario" for="nombre">Nombre:</label>
-                <input type="text" name="nombre" required>
+                <input type="text" name="nombre" maxlength="20" required>
+            </div>
+
+            <div class="campo">
+                <label class="nombreusuario" for="edad">Edad:</label>
+                <input type="number" name="edad">
             </div>
         
             <div class="campo">
@@ -43,18 +49,48 @@
                     <span><input type="checkbox" value="campaña">Campaña</span>
                 </div>
                 <div class="campo">
-                    <label>Plataforma favorita:</label>
+                    <label>Plataforma de juego:</label>
                     <div class="plataforma">
                         <span><input type="radio" name="plataforma" value="pc">PC</span>
                         <span><input type="radio" name="plataforma" value="consola">PSN</span>
                         <span><input type="radio" name="plataforma" value="consola">Movil</span>
                         <span><input type="radio" name="plataforma" value="consola">Xbox</span>
                     </div>
+                    <div class="campo">
+                        <label>Seleccione mes y año del reporte:</label>
+                        <div class="selector-fecha">
+                            <select name="mes">
+                                <option value="">Mes</option>
+                                <option value="enero">Enero</option>
+                                <option value="febrero">Febrero</option>
+                                <option value="marzo">Marzo</option>
+                                <option value="abril">Abril</option>
+                                <option value="mayo">Mayo</option>
+                                <option value="junio">Junio</option>
+                                <option value="julio">Julio</option>
+                                <option value="agosto">Agosto</option>
+                                <option value="septiembre">Septiembre</option>
+                                <option value="octubre">Octubre</option>
+                                <option value="noviembre">Noviembre</option>
+                                <option value="diciembre">Diciembre</option>
+                            </select>
+                    
+                            <select name="año">
+                                <option value="">Año</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                            </select>
+                        </div>
+                    </div>
+
                 </div>
                 </div>
             </div>
             <button class="enviar" type="submit">Enviar</button>
-            <button class="borrar" type="submit">Eliminar</button>
+            <button class="borrar" type="reset">Eliminar</button>
+            </form>
     </section>
 
     <footer>
