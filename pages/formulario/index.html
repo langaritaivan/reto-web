@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="es">
 
 <head>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="../../global.css">
     <meta charset="UTF-8">
     <title>Formulario-COD</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="../../global.css">
     <link rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
 </head>
 
@@ -19,27 +19,29 @@
 
     <section class="formulario-fondo">
         <form action="confirm.html">
-        <div>FORMULARIO</div>
-        <h2>Formulario y Comentarios</h2>
+            <div>FORMULARIO</div>
+            <h2>Formulario y Comentarios</h2>
+
             <div class="campo">
-                <label class="nombreusuario" for="nombre">Nombre:</label>
+                <label for="nombre" class="nombreusuario">Nombre:</label>
                 <input type="text" name="nombre" maxlength="20" required>
             </div>
 
             <div class="campo">
-                <label class="nombreusuario" for="edad">Edad:</label>
+                <label for="edad" class="nombreusuario">Edad:</label>
                 <input type="number" name="edad">
             </div>
-        
+
             <div class="campo">
-                <label class="email" for="email">Correo electrónico:</label>
+                <label for="email" class="email">Correo electrónico:</label>
                 <input type="email" name="email" required>
             </div>
 
             <div class="campo">
                 <label for="comentarios">Comentarios:</label>
-                <textarea name="comenarios"></textarea>
+                <textarea name="comentarios"></textarea>
             </div>
+
             <div class="campo">
                 <label>Selecciona tu modo de juego favorito:</label>
                 <div class="checkbox-container">
@@ -48,53 +50,55 @@
                     <span><input type="checkbox" value="battle_royale">Battle Royale</span>
                     <span><input type="checkbox" value="campaña">Campaña</span>
                 </div>
-                <div class="campo">
-                    <label>Plataforma de juego:</label>
-                    <div class="plataforma">
-                        <span><input type="radio" name="plataforma" value="pc">PC</span>
-                        <span><input type="radio" name="plataforma" value="consola">PSN</span>
-                        <span><input type="radio" name="plataforma" value="consola">Movil</span>
-                        <span><input type="radio" name="plataforma" value="consola">Xbox</span>
-                    </div>
-                    <div class="campo">
-                        <label>Seleccione mes y año del reporte:</label>
-                        <div class="selector-fecha">
-                            <select name="mes">
-                                <option value="">Mes</option>
-                                <option value="enero">Enero</option>
-                                <option value="febrero">Febrero</option>
-                                <option value="marzo">Marzo</option>
-                                <option value="abril">Abril</option>
-                                <option value="mayo">Mayo</option>
-                                <option value="junio">Junio</option>
-                                <option value="julio">Julio</option>
-                                <option value="agosto">Agosto</option>
-                                <option value="septiembre">Septiembre</option>
-                                <option value="octubre">Octubre</option>
-                                <option value="noviembre">Noviembre</option>
-                                <option value="diciembre">Diciembre</option>
-                            </select>
-                    
-                            <select name="año">
-                                <option value="">Año</option>
-                                <option value="2024">2024</option>
-                                <option value="2025">2025</option>
-                                <option value="2026">2026</option>
-                                <option value="2027">2027</option>
-                            </select>
-                        </div>
-                    </div>
+            </div>
 
-                </div>
+            <div class="campo">
+                <label>Plataforma de juego:</label>
+                <div class="plataforma">
+                    <span><input type="radio" name="plataforma" value="pc">PC</span>
+                    <span><input type="radio" name="plataforma" value="consola">PSN</span>
+                    <span><input type="radio" name="plataforma" value="movil">Movil</span>
+                    <span><input type="radio" name="plataforma" value="xbox">Xbox</span>
                 </div>
             </div>
+
+            <div class="campo">
+                <label>Seleccione mes y año del reporte:</label>
+                <div class="selector-fecha">
+                    <select name="mes">
+                        <option value="">Mes</option>
+                        <option value="enero">Enero</option>
+                        <option value="febrero">Febrero</option>
+                        <option value="marzo">Marzo</option>
+                        <option value="abril">Abril</option>
+                        <option value="mayo">Mayo</option>
+                        <option value="junio">Junio</option>
+                        <option value="julio">Julio</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="septiembre">Septiembre</option>
+                        <option value="octubre">Octubre</option>
+                        <option value="noviembre">Noviembre</option>
+                        <option value="diciembre">Diciembre</option>
+                    </select>
+
+                    <select name="año">
+                        <option value="">Año</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                    </select>
+                </div>
+            </div>
+
             <button class="enviar" type="submit">Enviar</button>
             <button class="borrar" type="reset">Eliminar</button>
-            </form>
+        </form>
     </section>
 
     <footer>
         Derechos reservados a Activison "call of duty BO6"
     </footer>
 </body>
+
 </html>
