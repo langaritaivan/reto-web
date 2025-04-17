@@ -15,7 +15,7 @@ selectArmas.addEventListener("change",()=>{
       armeria.style.backgroundImage = "url('../../assets/img/MP5.webp')"
       break;
     case "arma5":
-      armeria.style.backgroundImage = "url('../../assets/img/SVA.webp')"
+      armeria.style.backgroundImage = "url('../../assets/img/SVA545.jpg')"
       break;
     
 
