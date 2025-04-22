@@ -20,7 +20,6 @@ selectArmas.addEventListener("change",()=>{
     
 
     default:
-      armeria.style.backgroundImage = "url('../../assets/img/kilo.webp')"
 
       break;
   }
